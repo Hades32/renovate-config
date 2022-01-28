@@ -31,7 +31,7 @@
   "packageRules": [
     {
       "groupName": "internal-patch",
-      "matchPackagePrefixes": ["@balena"],
+      "matchPackagePrefixes": ["@hades32"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(internal patch bumps)",
       "matchCurrentVersion": ">=1.0.0",
@@ -42,7 +42,7 @@
     },
     {
       "groupName": "external-non-major",
-      "excludePackagePrefixes": ["@balena"],
+      "excludePackagePrefixes": ["@hades32"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(external non-major bumps)",
       "extends": ["schedule:weekends"],
@@ -55,7 +55,7 @@
     },
     {
       "groupName": "external-major",
-      "excludePackagePrefixes": ["@balena"],
+      "excludePackagePrefixes": ["@hades32"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(external major bumps)",
       "extends": ["schedule:weekends"],
@@ -65,7 +65,7 @@
     },
     {
       "groupName": "external-zero-minor",
-      "excludePackagePrefixes": ["@balena"],
+      "excludePackagePrefixes": ["@hades32"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(external v0 minor bumps)",
       "extends": ["schedule:weekends"],
