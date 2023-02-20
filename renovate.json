@@ -6,7 +6,9 @@
   "enabledManagers": [
     "npm",
     "dockerfile",
-    "docker-compose"
+    "docker-compose",
+    "gomod",
+    "github-actions"
   ],
   "force": {
     "constraints": {
